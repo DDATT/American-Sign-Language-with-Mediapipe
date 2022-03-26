@@ -1,1 +1,1 @@
-# American-Sign-Language-with-Mediapipe-
+# American-Sign-Language-with-Mediapipe
