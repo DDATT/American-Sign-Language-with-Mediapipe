@@ -12,7 +12,7 @@ Prerequisites
 
 Before you continue, ensure you meet the following requirements:
 
-* .
-* .
-* .
+* .You have installed Anaconda python 3.8 or newer
+* .You have installed Tensorflow 
+* .If you haven't installed Tensorflow yet, you can install it from this tuturial https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html#tensorflow-installation
 
