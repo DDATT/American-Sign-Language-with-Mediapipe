@@ -20,7 +20,14 @@ Before you continue, ensure you meet the following requirements:
 #### About the dataset
 I used my own dataset, you can check and use it [here](https://drive.google.com/drive/folders/1Cd2qNzgq-ox2Iwu12F1IXPOYeyw34Cdb?usp=sharing). 
 Or you can create your own dataset by running collect.py file (remember to change the saved image location in this file for your customization).
-If you want to use your dataset, then you have to label all your image by using labelImage tool, you can see tuturial [here](https://github.com/tzutalin/labelImg.)
+If you want to use your dataset, then you have to label all your image for transfer learning by using labelImage tool, you can see tuturial [here](https://github.com/tzutalin/labelImg.)
 #### Hand-sign alphabet
-This program covers 24/26 characters of Latin alphabet (except J and Z because it required motion process)
+This program covers 24/26 characters of Latin alphabet (except J and Z because it required motion process). I used image below to generate my dataset, 
+
+
+
+## Training model
+#### Directory
+Create your project folder and create folders like I did below
+
 
