@@ -23,6 +23,7 @@ Or you can create your own dataset by running collect.py file (remember to chang
 If you want to use your dataset, then you have to label all your image for transfer learning by using labelImage tool, you can see tuturial [here](https://github.com/tzutalin/labelImg.)
 #### Hand-sign alphabet
 This program covers 24/26 characters of Latin alphabet (except J and Z because it required motion process). I used image below to generate my dataset, 
+![The-26-hand-signs-of-the-ASL-Language](https://user-images.githubusercontent.com/88872468/169255652-d754157e-76bf-40f1-b08c-cb652dc279cb.png)
 
 
 
@@ -65,6 +66,7 @@ Here’s an explanation for each of the folders/filer shown in the above tree:
 **images**: This folder contains a copy of all the images in our dataset, as well as the respective *.xml files produced for each one, once labelImg is used to annotate objects.
 
 **images/train**: This folder contains a copy of all images, and the respective *.xml files, which will be used to train our model.
+
 
 **images/test**: This folder contains a copy of all images, and the respective *.xml files, which will be used to test our model.
 
