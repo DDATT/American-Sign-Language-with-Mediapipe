@@ -44,8 +44,11 @@ your_directory/
     └─ workspace/
 ```
 **scripts**: this folder will contains generate_tfrecord.py file.
+
 **models**: this folder will contains tensorflow object detection API.
+
 **workspace**: this folder shall be our training folder, which will contain all files related to our model training. It is advisable to create a separate training folder each time we wish to train on a different dataset. The typical structure for training folders is shown below.
+
 ```
 workspace/
   ├─ annotations/
