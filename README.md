@@ -49,7 +49,7 @@ your_directory/
     │    └─ ...
     └─ workspace/
 ```
-**scripts**: this folder will contains generate_tfrecord.py file.
+**scripts**: this folder will contains [generate_tfrecord.py](generate_tfrecord.py) file.
 
 **models**: this folder will contains tensorflow object detection API.
 
