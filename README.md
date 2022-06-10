@@ -38,23 +38,27 @@ Create your project folder and create folders like I did below
 ```
 your_directory/
   └─ TensorFlow/
-    ├─ addons/ (Optional)
-    │    └─ labelImg/
-    ├─ scripts
-    ├─ models/ (adding by install tensorflow object detection API)
-    │    ├─ community/
-    │    ├─ official/
-    │    ├─ orbit/
-    │    ├─ research/
-    │    └─ ...
-    └─ workspace/
+  │ ├─ labelImg/ (Optional)
+  │      └─ ...
+  │ ├─ scripts/
+  │      └─ generate_tfrecord.py
+  │ ├─ models/ (adding by install tensorflow object detection API)
+  │ │    ├─ community/
+  │ │    ├─ official/
+  │ │    ├─ orbit/
+  │ │    ├─ research/
+  │ │    └─ ...
+  │ └─ workspace/
+  └─ jupyter script ...
 ```
+**labelImg**: Optional for label your dataset.
+
 **scripts**: this folder will contains [generate_tfrecord.py](generate_tfrecord.py) file.
 
 **models**: this folder will contains tensorflow object detection API.
 
 **workspace**: this folder shall be our training folder, which will contain all files related to our model training. It is advisable to create a separate training folder each time we wish to train on a different dataset. The typical structure for training folders is shown below.
-
+**Jupyter script**: include 2 jupyter notebook file to train and run model.
 ```
 workspace/
   ├─ annotations/
@@ -77,6 +81,16 @@ Here’s an explanation for each of the folders/filer shown in the above tree:
 
 **models**: This folder will contain a sub-folder for each of training job. Each subfolder will contain the training pipeline configuration file *.config, as well as all files generated during the training and evaluation of our model.
 
-**pre-trained-models**: This folder will contain the downloaded pre-trained models, which shall be used as a starting checkpoint for our training jobs.
+**pre-trained-models**: This folder will contain the downloaded pre-trained models, which shall be used as a starting checkpoint for our training jobs, you can choose and download it from [here](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md).
+In this repository, i used the [SSD MobileNet V2 FPNLite 320x320](http://download.tensorflow.org/models/object_detection/tf2/20200711/ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8.tar.gz).
 
+#### Training model
+To start training your model, open the [TrainingKeyPoint.ipynb](TrainingKeyPoint.ipynb) in jupyter notebook and follow the instruction inside it and remember to change your folder path in this file.
+## Run model
+To run this model, open the [detection.py](detection.py) or [Detection.ipynb](Detection.ipynb).
 
+#### If you have any problem, just give me your issue, I'll check it asps.
+
+## Special thanks to:
+[Nicholas Renotte](https://www.youtube.com/c/NicholasRenotte) and [Tensorflow tuturial](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html#training-the-model) for tensorflow tuturial.
+[Darren](https://github.com/tzutalin) for the labelImg
