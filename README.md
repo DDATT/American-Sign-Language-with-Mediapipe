@@ -92,5 +92,5 @@ To run this model, open the [detection.py](detection.py) or [Detection.ipynb](De
 #### If you have any problem, just give me your issue, I'll check it asps.
 
 ## Special thanks to:
-[Nicholas Renotte](https://www.youtube.com/c/NicholasRenotte) and [Tensorflow tuturial](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html#training-the-model) for tensorflow tuturial.
+[Nicholas Renotte](https://www.youtube.com/c/NicholasRenotte) and [Tensorflow tuturial](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html#training-the-model) for the great deeplearning tuturial.
 [Darren](https://github.com/tzutalin) for the labelImg
