@@ -6,6 +6,11 @@ This is a sample program that recognizes hand signs and finger gestures with a s
 
 
 
+https://user-images.githubusercontent.com/88872468/173032132-7235d828-1d1e-4484-a61a-932672e5f8cd.mp4
+
+
+
+
 
 
 ## Prerequisites
